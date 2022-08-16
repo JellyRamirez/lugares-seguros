@@ -80,13 +80,25 @@ WSGI_APPLICATION = 'lugares_seguros.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
+'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+'''
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'de047r7ufcp1nf',
+        'USER': 'fbqzspihcipnir',
+        'HOST': 'ec2-44-208-88-195.compute-1.amazonaws.com',
+        'PASSWORD': '657ea541c8d0f859d447689242dd33ea9e101194b241eb5b9b0134474326741c',
+        'PORT': 5432
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
