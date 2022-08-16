@@ -1,4 +1,4 @@
-#!/home/jellyramirez/Documents/sfwit/lugares-seguros/virtual/bin/python
+#!/home/jeleramirez/Documentos/SFWIT/lugares-seguros/virtual/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
